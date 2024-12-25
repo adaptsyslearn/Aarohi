@@ -4,7 +4,7 @@
 # mean and standard deviation as per the standard formula  
 # This script and the directories of test sequences should be in the same filepath/location, update the test directory names if needed
 
-# Usage: /bin/bash compute_mean_std_dev.sh directory_names or ./compute_mean_std_dev.sh directory_names 
+# Usage: ./compute_mean_std_dev.sh directory_names 
 
 cpu_info="$(lscpu)"
 num_repeat=12 ## Increasing the iterations may cause high fluctuations in standard deviation
