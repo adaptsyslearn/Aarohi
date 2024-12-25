@@ -6,7 +6,7 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 
 ### Code Structure
 ```bash
-/                           : Aarohi Base
+/                           : Aarohi Root
 |-- Code
 |   |-- src                 : Flex Bison parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
