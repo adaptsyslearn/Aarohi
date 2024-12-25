@@ -7,11 +7,12 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 ### Code Structure
 ```bash
 /                           : Aarohi Root
+|-- Algorithm1              : Generation of rule list from failure chains
 |-- Code
 |   |-- src                 : Flex Bison parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
 |   |-- README.txt          : Information to compile and run
-|-- SampleData              : Sample HPC logs with few node failure information 
+|-- SampleData              : Sample HPC logs with some node failure information 
 |-- Experiments             : Scripts related to some of the results/plots
 ```
 
