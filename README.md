@@ -1,6 +1,8 @@
 # Aarohi
 
-This repo contains some artifacts related to the Aarohi (IPDPS'20) paper. 
+This repo contains some artifacts related to the Aarohi paper. 
+For further details, please refer to this [IPDPS 2020 paper](https://ieeexplore.ieee.org/document/9139847).
+
 
 ### Code Structure
 ```bash
