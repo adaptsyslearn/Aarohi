@@ -6,7 +6,7 @@
 
     # For plots 8 and 9
 
-    cd ../Experiments
+    cd Experiments
     bash generate_graphs8_9.sh
     output: MultiFCCheckTime.eps, TestdataCheckTime.eps
     
