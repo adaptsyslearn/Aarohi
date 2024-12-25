@@ -1,0 +1,11 @@
+2016-10-27T04:58:57.640876+02:00_c8-0c2s13n3_Processor_has_catastrophic_error!_CATERR_assertion_mask:_0x1
+2016-10-27T04:59:06.317921+02:00_c8-0c2s13n3_EXTERNAL_MCE_TOOL
+2016-10-27T04:59:06.317947+02:00_c8-0c2s13n3_socket_0_reports_MCERR_externally_asserted_by_socket_1
+2016-10-27T04:59:06.317954+02:00_c8-0c2s13n3_socket_0_reports_IERR_externally_asserted_by_socket_1
+2016-10-27T04:59:06.317961+02:00_c8-0c2s13n3_socket_0_reports_CATERR_externally_asserted_by_socket_1
+2016-10-27T04:59:06.317968+02:00_c8-0c2s13n3_Error_extracting_CBo_ToR_Data
+2016-10-27T04:59:06.317974+02:00_c8-0c2s13n3_Logging_1_MCE_errors_to_hwerrlog
+2016-10-27T04:59:06.317981+02:00_c8-0c2s13n3_**_Message:_bclib_set_nic_map:_NIC_re-mapping_is_in_place.
+2016-10-27T04:59:06.317989+02:00_c8-0c2s13n3_**_Message:_peci_crash_dump_tor:_Error_reading_ToR_entry
+2016-10-27T04:59:24.403825+02:00_c0-0c2s0n2_<node_health:5.1>_APID:3012334_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
+2016-10-27T05:02:26.962616+02:00_c0-0c2s0n2_<node_health:5.1>_RESID:738537_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
