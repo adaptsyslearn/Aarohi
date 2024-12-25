@@ -2,9 +2,9 @@
 16:27:14.046485         Heap_addr_before_Virtual_MemFixup_=_7bb0f018,_After_=_7bb0f018
 16:27:14.046500         NvramSmi_Go_Virtual
 09:46:34.030474         <node_health:5.1>_APID:0_(xtnhd)_INFO:+_xtnhd_has_started
-19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
 09:46:35.448139   	(Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
-19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
 09:49:12.099149   	LNetError:_*_Too_long_env_variable.
 10:12:04.144488         Running_sysctl_using_values_from_/etc/sysctl.conf
 10:12:04.144498         vm.max_map_count_=_1048576

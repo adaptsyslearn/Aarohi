@@ -1,6 +1,6 @@
 09:46:34.030474   <node_health:5.1>_APID:0_(xtnhd)_INFO:+_xtnhd_has_started
 09:46:35.448139   (Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
-19:26:12.036832   <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+19:26:12.036832   <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
 09:49:12.099149   LNetError:_*_Too_long_env_variable.
 14:27:11.665934   DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
 09:49:12.640969   LNetError:_*_Skipped_309_previous_similar_messages

@@ -1,14 +1,14 @@
 07:05:27.956206         cpu_0_apic_timer_out
 07:05:28.054649         task_PC_stack_pid_father
 07:05:28.054656         init_*
-19:26:12.036832         <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+19:26:12.036832         <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
 07:05:28.054724         Call_Trace:
 07:05:40.916332­        Debug_NMI_detected_on_CPU_9
 03:00:00.311889         Killed_process_*
 07:05:41.888702         Kernel_panic_not_syncing:_Debug_NMI
 14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
 07:05:45.945933         cb_node_unavailable:c3-0c1s1n2_found_in_unavailable_event
-19:26:12.036832         <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+19:26:12.036832         <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
 04:22:44.126366         DVS:_file_node_down:_removing_*_from_list_of_available_servers*         
 04:37:09.598240         LNet:_*_No_gnilnd_traffic_received_from_*_for_*_seconds_*               
 04:39:28.414866         LNet:_*_to_timed_out_*                                                  
