@@ -1,9 +1,10 @@
 # Aarohi
 
-# Citation
+## Citation
 
 If you use Aarohi in your work, please cite the following paper:
 
+```
 @inproceedings{DBLP:conf/aarohi,
   author       = {Anwesha Das and
                   Frank Mueller and
@@ -15,3 +16,4 @@ If you use Aarohi in your work, please cite the following paper:
   publisher    = {{IEEE}},
   year         = {2020}
 }
+```
