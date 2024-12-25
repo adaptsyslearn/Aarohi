@@ -1,0 +1,14 @@
+#CountB#CumulativeCountB#Time-RangeB(msecs,0.5=0 since logscale)
+44	44	0.5
+9	53	25
+11	64	26
+1	65	51
+1	66	7746
+1	67	9742
+1	68	18494
+1	69	21247
+1	70	60041
+1	71	12053212
+
+
+

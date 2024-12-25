@@ -1,0 +1,302 @@
+2016-01-01T14:29:52.264684-08:00 c4-3c1s7n3 Wait4Boot: WRITE: 524 bytes to memory @ 0x90CD0 ... complete
+2016-01-01T14:29:52.264695-08:00 c4-3c1s7n3 Wait4Boot: Blade Controller Boot Protocol version - 1
+2016-01-01T14:29:52.264701-08:00 c4-3c1s7n3 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+2016-01-01T14:29:52.264709-08:00 c4-3c1s7n3 FastBootOption OnExitBootServices event .............
+2016-01-01T14:29:52.264729-08:00 c4-3c1s7n3 FastBootOption gFastBootPolicy->FastBootEnable = 0
+2016-01-01T14:29:52.264749-08:00 c4-3c1s7n3 [[ SbPchCallbackExitBootServices() Start. ]]
+2016-01-01T14:29:52.264759-08:00 c4-3c1s7n3 SaveState UniqueIndex 305 , OpIndex 3, OldOpCode 3 
+2016-01-01T14:29:52.264769-08:00 c4-3c1s7n3 [[ SbPchCallbackExitBootServices() Done. ]]
+2016-01-01T14:30:07.889458-08:00 c4-3c1s7n3 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 5471
+2016-01-01T14:30:07.889466-08:00 c4-3c1s7n3 net.core.rmem_max = 16777216
+2016-01-01T14:30:07.889472-08:00 c4-3c1s7n3 net.core.wmem_max = 16777216
+2016-01-01T14:30:07.889478-08:00 c4-3c1s7n3 net.core.rmem_default = 16777216
+2016-01-01T14:30:07.889487-08:00 c4-3c1s7n3 net.core.wmem_default = 16777216
+2016-01-01T14:30:07.889494-08:00 c4-3c1s7n3 net.core.optmem_max = 16777216
+2016-01-01T14:30:07.889502-08:00 c4-3c1s7n3 net.ipv4.tcp_mem = 16777216 16777216 16777216
+2016-01-01T14:30:07.889515-08:00 c4-3c1s7n3 net.ipv4.tcp_rmem = 4096 87380 16777216
+2016-01-01T14:30:07.889528-08:00 c4-3c1s7n3 net.ipv4.tcp_wmem = 4096 65536 16777216
+2016-01-01T14:30:08.059883-08:00 c4-3c1s7n3 Starting RSIP client, server=10.128.22.242, num_ports=74
+2016-01-01T14:30:08.085191-08:00 c4-3c1s7n3 Loading gsockets module
+2016-01-01T14:30:08.111212-08:00 c4-3c1s7n3 nid 5471: Linux version 3.0.101-0.35.1_1.0502.8640-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Feb 18 05:13:50 UTC 2015
+2016-01-01T14:30:08.136532-08:00 c4-3c1s7n3 starting pid 27578, ttLNet: HW CPU cores: 48, npartitions: 8
+2016-01-01T14:30:08.164601-08:00 c4-3c1s7n3 y '': '/etc/init.d/rc'
+2016-01-01T14:30:08.164733-08:00 c4-3c1s7n3 nomtab: 1
+2016-01-01T14:30:19.322420-08:00 c4-3c1s7n3 Lustre: Lustre: Build Version: 2.5.2-trunk-1.0502.18911.12.4-abuild-RB-5.2UP03_2.5.2-2015-02-18-05:54
+2016-01-01T14:30:19.322437-08:00 c4-3c1s7n3 Lustre: kgnilnd build version: 2.5-trunk-1.0502.18911.12.4-abuild-RB-5.2UP03_2.5.2-2015-02-18-05:54
+2016-01-01T14:30:19.322444-08:00 c4-3c1s7n3 LNet: Added LNI 5471@gni [16/1024/0/0]
+2016-01-01T14:30:19.322452-08:00 c4-3c1s7n3 LustreError: 27740:0:(obd_config.c:1341:class_process_proc_param()) lov: snx11025-clilov-ffff8810396a9000 unknown param qos_threshold_rr=100
+2016-01-01T14:30:19.322460-08:00 c4-3c1s7n3 LustreError: 27740:0:(obd_config.c:1346:class_process_proc_param()) osc.: error writing proc entry 'checksum_type': rc = -22
+2016-01-01T14:30:19.322466-08:00 c4-3c1s7n3 Lustre: Mounted snx11025-client
+2016-01-01T14:30:19.322472-08:00 c4-3c1s7n3 nomtab: 1
+2016-01-01T14:30:19.322481-08:00 c4-3c1s7n3 LustreError: 27750:0:(obd_config.c:1341:class_process_proc_param()) lov: snx11035-clilov-ffff880837139800 unknown param qos_threshold_rr=100
+2016-01-01T14:30:19.322503-08:00 c4-3c1s7n3 LustreError: 27750:0:(obd_config.c:1346:class_process_proc_param()) osc.: error writing proc entry 'checksum_type': rc = -22
+2016-01-01T14:30:20.178537-08:00 c4-3c1s7n3 Lustre: Mounted snx11035-client
+2016-01-01T14:30:20.203475-08:00 c4-3c1s7n3 nomtab: 1
+2016-01-01T14:30:21.024901-08:00 c4-3c1s7n3 LustreError: 27755:0:(obd_config.c:1341:class_process_proc_param()) lov: snx11036-clilov-ffff881039af7400 unknown param qos_threshold_rr=100
+2016-01-01T14:30:21.279846-08:00 c4-3c1s7n3 Lustre: Layout lock feature supported.
+2016-01-01T14:30:21.456049-08:00 c4-3c1s7n3 Lustre: Mounted snx11036-client
+2016-01-01T14:30:21.585915-08:00 c4-3c1s7n3 bpmcd_init: Power statistics available in /sys/cray
+2016-01-01T14:30:21.609522-08:00 c4-3c1s7n3 DVS: Revision 2043 - Built: Apr 29 2015 @ 20:36:39 for lnet version 2.5
+2016-01-01T14:30:38.557409-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451687324/real 1451687324]  req@ffff880fe1541c00 x1522204483256708/t0(0) o8->snx11025-OST0033-osc-ffff8810396a9000@10.100.100.17@o2ib1006:28/4 lens 400/544 e 0 to 1 dl 1451687344 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T14:30:40.342841-08:00 c4-3c1s7n3 DVS: parse_options: ignoring 'maxnodes' for loadbalance file system
+2016-01-01T14:30:40.393676-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451687327/real 1451687327]  req@ffff88083676b400 x1522204483257220/t0(0) o8->snx11035-OST0017-osc-ffff880837139800@10.100.101.10@o2ib2003:28/4 lens 400/544 e 0 to 1 dl 1451687347 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T14:30:40.418581-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 3 previous similar messages
+2016-01-01T14:30:41.486718-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451687328/real 1451687328]  req@ffff88083dded400 x1522204483257664/t0(0) o8->snx11036-OST000b-osc-ffff881039af7400@10.100.102.16@o2ib3005:28/4 lens 400/544 e 0 to 1 dl 1451687348 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T14:30:41.537208-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 11 previous similar messages
+2016-01-01T14:30:46.362806-08:00 c4-3c1s7n3 LustreError: 11-0: snx11035-OST0005-osc-ffff880837139800: Communicating with 10.100.101.5@o2ib2002, operation ost_connect failed with -19.
+2016-01-01T14:31:00.614897-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.101.6@o2ib2003 portal 4 match 1522204483257156 offset 0 length 264: 4
+2016-01-01T14:31:25.729508-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c2-0c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.779517-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c6-0c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.805425-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c0-1c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.830433-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c2-1c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.881249-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c4-1c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.930924-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c0-2c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:25.956109-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c0-2c0s0n1 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.007000-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c2-2c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.032209-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c4-2c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.082704-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c6-2c0s0n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.107874-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c2-0c1s1n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.158220-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c4-0c1s1n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.680393-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c6-0c1s1n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.680406-08:00 c4-3c1s7n3 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c0-1c1s1n2 for /global/scratch2 does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2016-01-01T14:31:26.680418-08:00 c4-3c1s7n3 DVS: read_clustered_super: no servers functioning properly. Unable to mount /global/scratch2 from servers to /global/scratch2.  Failover mode requires at least one functioning server
+2016-01-01T14:31:26.680429-08:00 c4-3c1s7n3 mount: mounting /global/scratch2 on /global/scratch2 failed: No such device or address
+2016-01-01T14:31:33.700706-08:00 c4-3c1s7n3 S01dvs: mount returned error 255 for /global/scratch2
+2016-01-01T14:31:49.798604-08:00 c4-3c1s7n3 SGI XPMEM kernel module v2.2 loaded
+2016-01-01T14:31:49.801406-08:00 c4-3c1s7n3 <node_health:5.1> APID:0 (xtnhd) INFO: xtnhd has started
+2016-01-01T14:31:49.811767-08:00 c4-3c1s7n3 mount: mounting /dsl/opt/slurm on /dsl/dsl/opt/slurm failed: No such file or directory
+2016-01-01T14:32:50.631822-08:00 c4-3c1s7n3 LNet: hardware quiesce flag: Waiting for 3 threads to pause
+2016-01-01T14:32:52.236588-08:00 c4-3c1s7n3 LNet: hardware quiesce flag: All threads paused!
+2016-01-01T14:32:52.261605-08:00 c4-3c1s7n3 LNet: Waiting for hardware quiesce flag to clear
+2016-01-01T14:32:54.270300-08:00 c4-3c1s7n3 LNet: Waiting for hardware quiesce flag to clear
+2016-01-01T14:32:57.261063-08:00 c4-3c1s7n3 LNet: Waiting for hardware quiesce flag to clear
+2016-01-01T14:33:01.294725-08:00 c4-3c1s7n3 LNet: Waiting for hardware quiesce flag to clear
+2016-01-01T14:33:07.351029-08:00 c4-3c1s7n3 Lustre: 27695:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for sent delay: [sent 1451687478/real 0]  req@ffff88103812f400 x1522204483263292/t0(0) o400->snx11036-OST000c-osc-ffff881039af7400@10.100.102.17@o2ib3006:28/4 lens 224/224 e 0 to 1 dl 1451687494 ref 2 fl Rpc:XNQU/0/ffffffff rc 0/-1
+2016-01-01T14:33:07.376398-08:00 c4-3c1s7n3 Lustre: snx11036-OST000b-osc-ffff881039af7400: Connection to snx11036-OST000b (at 10.100.102.15@o2ib3004) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T14:33:06.284637-08:00 c4-3c1s7n3 LNet: Waiting for hardware quiesce flag to clear
+2016-01-01T14:33:07.400992-08:00 c4-3c1s7n3 LustreError: 166-1: MGC10.100.102.3@o2ib3000: Connection to MGS (at 10.100.102.3@o2ib3000) was lost; in progress operations using this service will fail
+2016-01-01T14:33:07.424482-08:00 c4-3c1s7n3 Lustre: 27695:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 221 previous similar messages
+2016-01-01T14:33:12.282579-08:00 c4-3c1s7n3 LNet: hardware quiesce callback: bumping all timeouts by 16s
+2016-01-01T14:33:12.282623-08:00 c4-3c1s7n3 LNet: hardware quiesce: Waiting for 5 threads to wake up
+2016-01-01T14:33:13.251280-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.101.15@o2ib2004 portal 4 match 1522204483263020 offset 192 length 192: 4
+2016-01-01T14:33:13.276573-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Skipped 7 previous similar messages
+2016-01-01T14:33:13.301988-08:00 c4-3c1s7n3 Lustre: snx11025-MDT0000-mdc-ffff8810396a9000: Connection restored to snx11025-MDT0000 (at 10.100.100.4@o2ib1000)
+2016-01-01T14:33:13.995398-08:00 c4-3c1s7n3 Lustre: snx11036-OST0017-osc-ffff881039af7400: Connection restored to snx11036-OST0017 (at 10.100.102.28@o2ib3009)
+2016-01-01T14:33:13.996706-08:00 c4-3c1s7n3 Lustre: Skipped 126 previous similar messages
+2016-01-01T14:33:14.626212-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.101.9@o2ib2002 portal 4 match 1522204483262920 offset 192 length 192: 4
+2016-01-01T14:33:14.626223-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Skipped 67 previous similar messages
+2016-01-01T14:33:14.626230-08:00 c4-3c1s7n3 LNet: hardware quiesce: All threads awake!
+2016-01-01T14:33:14.997550-08:00 c4-3c1s7n3 Lustre: snx11035-OST000f-osc-ffff880837139800: Connection restored to snx11035-OST000f (at 10.100.101.7@o2ib2002)
+2016-01-01T14:33:15.022864-08:00 c4-3c1s7n3 Lustre: Skipped 97 previous similar messages
+2016-01-01T14:41:19.471322-08:00 c4-3c1s7n3 Lustre: 27694:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451687969/real 1451687969]  req@ffff88103a1fbc00 x1522204483281408/t0(0) o400->snx11025-OST0027-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451687986 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T14:41:19.502450-08:00 c4-3c1s7n3 Lustre: snx11025-OST002e-osc-ffff8810396a9000: Connection to snx11025-OST002e (at 10.100.100.16@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T14:41:19.502813-08:00 c4-3c1s7n3 Lustre: Skipped 224 previous similar messages
+2016-01-01T14:41:19.537901-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection restored to snx11025-OST001e (at 10.100.100.12@o2ib1005)
+2016-01-01T14:41:19.538456-08:00 c4-3c1s7n3 Lustre: Skipped 7 previous similar messages
+2016-01-01T14:41:19.569813-08:00 c4-3c1s7n3 Lustre: 27694:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 13 previous similar messages
+2016-01-01T14:41:39.949125-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.100.16@o2ib1005 portal 4 match 1522204483281436 offset 192 length 192: 4
+2016-01-01T14:41:39.950868-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Skipped 46 previous similar messages
+2016-01-01T14:41:40.598675-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451687986/real 1451687986]  req@ffff880836e4b800 x1522204483282216/t0(0) o8->snx11025-OST0027-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 400/544 e 0 to 1 dl 1451688007 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T14:42:09.567128-08:00 c4-3c1s7n3 Lustre: snx11025-OST001d-osc-ffff8810396a9000: Connection restored to snx11025-OST001d (at 10.100.100.12@o2ib1005)
+2016-01-01T14:42:09.592043-08:00 c4-3c1s7n3 Lustre: Skipped 4 previous similar messages
+2016-01-01T14:54:31.288175-08:00 c4-3c1s7n3 <node_health> Boot_Check: Starting
+2016-01-01T14:54:31.288211-08:00 c4-3c1s7n3 boot_freemem data calculated:  63576592
+2016-01-01T15:15:20.596997-08:00 c4-3c1s7n3 Lustre: 27694:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690104/real 1451690104]  req@ffff8810335ab400 x1522204483357232/t0(0) o400->snx11025-OST001f-osc-ffff8810396a9000@10.100.100.12@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451690120 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:15:20.598809-08:00 c4-3c1s7n3 Lustre: snx11025-OST001d-osc-ffff8810396a9000: Connection to snx11025-OST001d (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T15:15:20.630882-08:00 c4-3c1s7n3 Lustre: Skipped 9 previous similar messages
+2016-01-01T15:15:20.633358-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection restored to snx11025-OST0025 (at 10.100.100.14@o2ib1005)
+2016-01-01T15:15:20.664423-08:00 c4-3c1s7n3 Lustre: Skipped 4 previous similar messages
+2016-01-01T15:15:20.666511-08:00 c4-3c1s7n3 Lustre: 27694:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 10 previous similar messages
+2016-01-01T15:15:40.707000-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690120/real 1451690120]  req@ffff880839831400 x1522204483358060/t0(0) o8->snx11025-OST001f-osc-ffff8810396a9000@10.100.100.12@o2ib1005:28/4 lens 400/544 e 0 to 1 dl 1451690140 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:15:50.769546-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.102.31@o2ib3010 portal 4 match 1522204483357996 offset 192 length 192: 4
+2016-01-01T15:15:50.805491-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Skipped 3 previous similar messages
+2016-01-01T15:16:01.706208-08:00 c4-3c1s7n3 Lustre: 27699:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690145/real 1451690145]  req@ffff88083963b800 x1522204483358228/t0(0) o400->snx11025-OST0027-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451690161 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:16:01.737292-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection to snx11025-OST0026 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T15:16:01.769753-08:00 c4-3c1s7n3 Lustre: Skipped 6 previous similar messages
+2016-01-01T15:16:01.801196-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection restored to snx11025-OST0026 (at 10.100.100.14@o2ib1005)
+2016-01-01T15:16:01.801482-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T15:16:01.802390-08:00 c4-3c1s7n3 Lustre: 27699:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 5 previous similar messages
+2016-01-01T15:16:26.805358-08:00 c4-3c1s7n3 Lustre: snx11025-OST001f-osc-ffff8810396a9000: Connection restored to snx11025-OST001f (at 10.100.100.12@o2ib1005)
+2016-01-01T15:16:26.830212-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T15:22:07.851126-08:00 c4-3c1s7n3 Lustre: 27674:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690511/real 1451690511]  req@ffff881039703000 x1522204483371332/t0(0) o400->snx11025-OST0024-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451690527 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:22:07.882609-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection to snx11025-OST001e (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T15:22:07.882688-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T15:22:07.917131-08:00 c4-3c1s7n3 Lustre: snx11025-OST0027-osc-ffff8810396a9000: Connection restored to snx11025-OST0027 (at 10.100.100.14@o2ib1005)
+2016-01-01T15:22:07.917471-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T15:22:07.946072-08:00 c4-3c1s7n3 Lustre: 27674:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 4 previous similar messages
+2016-01-01T15:22:28.164840-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690527/real 1451690527]  req@ffff881039caa800 x1522204483372132/t0(0) o8->snx11025-OST0024-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 400/544 e 0 to 1 dl 1451690547 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:22:58.162586-08:00 c4-3c1s7n3 Lustre: snx11025-OST002c-osc-ffff8810396a9000: Connection restored to snx11025-OST002c (at 10.100.100.16@o2ib1005)
+2016-01-01T15:22:58.162608-08:00 c4-3c1s7n3 Lustre: Skipped 1 previous similar message
+2016-01-01T15:27:23.982157-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451690827/real 1451690827]  req@ffff8810398e8c00 x1522204483382584/t0(0) o400->snx11025-OST0024-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451690843 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T15:27:24.007413-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection to snx11025-OST0026 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T15:27:24.007886-08:00 c4-3c1s7n3 Lustre: Skipped 5 previous similar messages
+2016-01-01T15:27:24.033338-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection restored to snx11025-OST0026 (at 10.100.100.14@o2ib1005)
+2016-01-01T15:27:24.033814-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T15:27:24.058167-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 7 previous similar messages
+2016-01-01T15:28:05.099705-08:00 c4-3c1s7n3 Lustre: snx11025-OST0024-osc-ffff8810396a9000: Connection to snx11025-OST0024 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T15:28:05.100090-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection restored to snx11025-OST001e (at 10.100.100.12@o2ib1005)
+2016-01-01T15:28:05.125047-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T15:28:05.125143-08:00 c4-3c1s7n3 Lustre: Skipped 7 previous similar messages
+2016-01-01T15:32:09.426355-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T16:00:51.149182-08:00 c4-3c1s7n3 Lustre: 27675:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451692835/real 1451692835]  req@ffff8810335abc00 x1522204483456608/t0(0) o400->snx11025-OST002d-osc-ffff8810396a9000@10.100.100.16@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451692851 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:00:51.174512-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection to snx11025-OST0025 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:00:51.199876-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection restored to snx11025-OST0025 (at 10.100.100.14@o2ib1005)
+2016-01-01T16:00:51.200010-08:00 c4-3c1s7n3 Lustre: Skipped 7 previous similar messages
+2016-01-01T16:00:51.225197-08:00 c4-3c1s7n3 Lustre: 27675:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 13 previous similar messages
+2016-01-01T16:01:11.468689-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451692851/real 1451692851]  req@ffff88103636c000 x1522204483457372/t0(0) o8->snx11025-OST001e-osc-ffff8810396a9000@10.100.100.12@o2ib1005:28/4 lens 400/544 e 0 to 1 dl 1451692871 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:01:41.487081-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection restored to snx11025-OST001e (at 10.100.100.12@o2ib1005)
+2016-01-01T16:01:41.487096-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T16:01:57.270651-08:00 c4-3c1s7n3 Lustre: 27660:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451692901/real 1451692901]  req@ffff880837029000 x1522204483458472/t0(0) o400->snx11025-OST0025-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451692917 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:01:57.321229-08:00 c4-3c1s7n3 Lustre: snx11025-OST002d-osc-ffff8810396a9000: Connection to snx11025-OST002d (at 10.100.100.16@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:01:57.321363-08:00 c4-3c1s7n3 Lustre: Skipped 6 previous similar messages
+2016-01-01T16:01:57.346522-08:00 c4-3c1s7n3 Lustre: 27660:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 6 previous similar messages
+2016-01-01T16:01:57.371944-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection restored to snx11025-OST0025 (at 10.100.100.14@o2ib1005)
+2016-01-01T16:01:57.372055-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:02:38.404868-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451692942/real 1451692942]  req@ffff88083627dc00 x1522204483459424/t0(0) o400->snx11025-OST0024-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451692958 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:02:38.430534-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection to snx11025-OST001e (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:02:38.455399-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:02:38.455755-08:00 c4-3c1s7n3 Lustre: snx11025-OST001d-osc-ffff8810396a9000: Connection restored to snx11025-OST001d (at 10.100.100.12@o2ib1005)
+2016-01-01T16:02:38.480928-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 7 previous similar messages
+2016-01-01T16:03:19.525030-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection to snx11025-OST0026 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:03:19.525117-08:00 c4-3c1s7n3 Lustre: Skipped 6 previous similar messages
+2016-01-01T16:03:44.582549-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection restored to snx11025-OST001e (at 10.100.100.12@o2ib1005)
+2016-01-01T16:03:44.582593-08:00 c4-3c1s7n3 Lustre: Skipped 5 previous similar messages
+2016-01-01T16:04:25.574922-08:00 c4-3c1s7n3 Lustre: 27688:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451693049/real 1451693049]  req@ffff880839e50400 x1522204483462268/t0(0) o400->snx11025-OST0025-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451693065 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:04:25.625310-08:00 c4-3c1s7n3 Lustre: snx11025-OST002d-osc-ffff8810396a9000: Connection to snx11025-OST002d (at 10.100.100.16@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:04:25.650123-08:00 c4-3c1s7n3 Lustre: 27688:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 11 previous similar messages
+2016-01-01T16:05:06.678087-08:00 c4-3c1s7n3 Lustre: snx11025-OST001c-osc-ffff8810396a9000: Connection to snx11025-OST001c (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:05:06.678254-08:00 c4-3c1s7n3 Lustre: Skipped 6 previous similar messages
+2016-01-01T16:05:47.750974-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection to snx11025-OST0026 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:05:47.750994-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:05:54.336058-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.102.29@o2ib3010 portal 4 match 1522204483464904 offset 192 length 192: 4
+2016-01-01T16:05:54.372828-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Skipped 3 previous similar messages
+2016-01-01T16:05:54.373617-08:00 c4-3c1s7n3 Lustre: snx11036-OST0018-osc-ffff881039af7400: Connection restored to snx11036-OST0018 (at 10.100.102.29@o2ib3010)
+2016-01-01T16:05:54.396097-08:00 c4-3c1s7n3 Lustre: Skipped 14 previous similar messages
+2016-01-01T16:08:37.733071-08:00 c4-3c1s7n3 Lustre: 27692:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451693301/real 1451693301]  req@ffff880836cdbc00 x1522204483469820/t0(0) o400->snx11025-OST0026-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451693317 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:08:37.758554-08:00 c4-3c1s7n3 Lustre: snx11036-OST001c-osc-ffff881039af7400: Connection to snx11036-OST001c (at 10.100.102.33@o2ib3010) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:08:37.758642-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:08:37.783880-08:00 c4-3c1s7n3 Lustre: 27692:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 25 previous similar messages
+2016-01-01T16:08:40.922881-08:00 c4-3c1s7n3 LNet: 27653:0:(lib-move.c:1497:lnet_parse_put()) Dropping PUT from 12345-10.100.102.29@o2ib3010 portal 4 match 1522204483470548 offset 192 length 192: 4
+2016-01-01T16:10:24.832617-08:00 c4-3c1s7n3 Lustre: snx11025-OST001e-osc-ffff8810396a9000: Connection restored to snx11025-OST001e (at 10.100.100.12@o2ib1005)
+2016-01-01T16:10:24.832669-08:00 c4-3c1s7n3 Lustre: Skipped 16 previous similar messages
+2016-01-01T16:32:24.544581-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T16:41:05.790183-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451695249/real 1451695249]  req@ffff8810361da000 x1522204483541056/t0(0) o400->snx11025-OST002f-osc-ffff8810396a9000@10.100.100.16@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451695265 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:41:05.840583-08:00 c4-3c1s7n3 Lustre: snx11025-OST0027-osc-ffff8810396a9000: Connection to snx11025-OST0027 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:41:05.840610-08:00 c4-3c1s7n3 Lustre: Skipped 16 previous similar messages
+2016-01-01T16:41:05.866247-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection restored to snx11025-OST0025 (at 10.100.100.14@o2ib1005)
+2016-01-01T16:41:05.866286-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:41:05.891355-08:00 c4-3c1s7n3 Lustre: 27704:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 20 previous similar messages
+2016-01-01T16:41:46.947619-08:00 c4-3c1s7n3 Lustre: 27701:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451695291/real 1451695291]  req@ffff881036584c00 x1522204483542012/t0(0) o400->snx11025-OST002e-osc-ffff8810396a9000@10.100.100.16@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451695307 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:41:46.973142-08:00 c4-3c1s7n3 Lustre: snx11025-OST0024-osc-ffff8810396a9000: Connection to snx11025-OST0024 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:41:46.998069-08:00 c4-3c1s7n3 Lustre: Skipped 5 previous similar messages
+2016-01-01T16:41:47.024729-08:00 c4-3c1s7n3 Lustre: 27701:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 6 previous similar messages
+2016-01-01T16:42:12.042412-08:00 c4-3c1s7n3 Lustre: snx11025-OST002f-osc-ffff8810396a9000: Connection restored to snx11025-OST002f (at 10.100.100.16@o2ib1005)
+2016-01-01T16:42:12.067731-08:00 c4-3c1s7n3 Lustre: Skipped 4 previous similar messages
+2016-01-01T16:42:28.054077-08:00 c4-3c1s7n3 Lustre: snx11025-OST001c-osc-ffff8810396a9000: Connection to snx11025-OST001c (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:42:28.079310-08:00 c4-3c1s7n3 Lustre: Skipped 3 previous similar messages
+2016-01-01T16:43:09.108761-08:00 c4-3c1s7n3 Lustre: 27681:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451695373/real 1451695373]  req@ffff881037ec9c00 x1522204483543876/t0(0) o400->snx11025-OST0026-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451695389 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T16:43:09.133870-08:00 c4-3c1s7n3 Lustre: 27681:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 9 previous similar messages
+2016-01-01T16:43:50.178523-08:00 c4-3c1s7n3 Lustre: snx11025-OST0025-osc-ffff8810396a9000: Connection to snx11025-OST0025 (at 10.100.100.14@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T16:43:50.178540-08:00 c4-3c1s7n3 Lustre: Skipped 6 previous similar messages
+2016-01-01T17:32:40.374066-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T17:55:25.465570-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T17:58:40.612939-08:00 c4-3c1s7n3 slurmstepd (28559): memory.force_empty is deprecated and will be removed.  Let us know if it is needed in your usecase at linux-mm@kvack.org
+2016-01-01T18:32:55.330656-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T18:52:51.078698-08:00 c4-3c1s7n3 Lustre: 27699:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451703155/real 1451703155]  req@ffff881039982c00 x1522204483834636/t0(0) o400->snx11025-OST0024-osc-ffff8810396a9000@10.100.100.14@o2ib1005:28/4 lens 224/224 e 0 to 1 dl 1451703171 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T18:52:51.104651-08:00 c4-3c1s7n3 Lustre: snx11025-OST002e-osc-ffff8810396a9000: Connection to snx11025-OST002e (at 10.100.100.16@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T18:52:51.129251-08:00 c4-3c1s7n3 Lustre: snx11025-OST0026-osc-ffff8810396a9000: Connection restored to snx11025-OST0026 (at 10.100.100.14@o2ib1005)
+2016-01-01T18:52:51.129264-08:00 c4-3c1s7n3 Lustre: Skipped 13 previous similar messages
+2016-01-01T18:52:51.154933-08:00 c4-3c1s7n3 Lustre: 27699:0:(client.c:1910:ptlrpc_expire_one_request()) Skipped 10 previous similar messages
+2016-01-01T18:53:11.229311-08:00 c4-3c1s7n3 Lustre: 27657:0:(client.c:1910:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1451703171/real 1451703171]  req@ffff880836c89c00 x1522204483835436/t0(0) o8->snx11025-OST002e-osc-ffff8810396a9000@10.100.100.16@o2ib1005:28/4 lens 400/544 e 0 to 1 dl 1451703191 ref 1 fl Rpc:XNU/0/ffffffff rc 0/-1
+2016-01-01T18:53:32.188032-08:00 c4-3c1s7n3 Lustre: snx11025-OST001f-osc-ffff8810396a9000: Connection to snx11025-OST001f (at 10.100.100.12@o2ib1005) was lost; in progress operations using this service will wait for recovery to complete
+2016-01-01T18:53:32.222556-08:00 c4-3c1s7n3 Lustre: snx11025-OST001d-osc-ffff8810396a9000: Connection restored to snx11025-OST001d (at 10.100.100.12@o2ib1005)
+2016-01-01T18:53:32.222626-08:00 c4-3c1s7n3 Lustre: Skipped 2 previous similar messages
+2016-01-01T18:53:32.222666-08:00 c4-3c1s7n3 Lustre: Skipped 9 previous similar messages
+2016-01-01T18:55:40.825717-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T19:32:55.949653-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T19:55:56.153729-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T20:56:11.576374-08:00 c4-3c1s7n3 nscd: nss_ldap: reconnected to LDAP server ldap://ldapcrt.org.gov:636 after 1 attempt
+2016-01-01T22:29:09.707271-08:00 c4-3c1s7n3 Killed process 29970 (bigmpi5) apid 337 total-vm:54899856kB, anon-rss:1576800kB, file-rss:1024kB
+2016-01-01T22:29:09.730864-08:00 c4-3c1s7n3 Out of memory (GS): Worst offending of 1 Job. Over by (1280394416128B).: Killed 23 processes sharing cpu group with pid 29970.
+2016-01-01T22:47:31.199923-08:00 c4-3c1s7n3 Killed process 30416 (bigmpi5) apid 341 total-vm:54637712kB, anon-rss:2030356kB, file-rss:1036kB
+2016-01-01T22:47:31.225198-08:00 c4-3c1s7n3 Out of memory (GS): Worst offending of 1 Job. Over by (1274023297024B).: Killed 23 processes sharing cpu group with pid 30416.
+2016-01-01T22:50:52.477038-08:00 c4-3c1s7n3 Killed process 30908 (bigmpi5) apid 342 total-vm:54711440kB, anon-rss:2388352kB, file-rss:1116kB
+2016-01-01T22:50:52.477302-08:00 c4-3c1s7n3 Out of memory (GS): Worst offending of 1 Job. Over by (1275702673408B).: Killed 23 processes sharing cpu group with pid 30908.
+2016-01-01T23:08:04.335718-08:00 c4-3c1s7n3 Killed process 31170 (bigmpi5) apid 343 total-vm:54706188kB, anon-rss:2411624kB, file-rss:1008kB
+2016-01-01T23:08:04.335752-08:00 c4-3c1s7n3 bigmpi5: page allocation failure: order:0, mode:0x50
+2016-01-01T23:08:04.361021-08:00 c4-3c1s7n3 Out of memory (GS): Worst offending of 1 Job. Over by (1275524816896B).: Killed 23 processes sharing cpu group with pid 31170.
+2016-01-01T23:08:04.386434-08:00 c4-3c1s7n3 LNetError: 31170:0:(lib-lnet.h:500:lnet_me_alloc()) LNET: out of memory at /usr/src/packages/BUILD/cray-lustre/lnet/include/lnet/lib-lnet.h:500 (tried to alloc '(me)' = 96)
+2016-01-01T23:08:04.386591-08:00 c4-3c1s7n3 LNetError: 31170:0:(lib-lnet.h:500:lnet_me_alloc()) LNET: 894750501 total bytes allocated by lnet
+2016-01-01T23:08:04.386606-08:00 c4-3c1s7n3 DVS: lnet_mapuvm: LNetMEAttach failed (-12)
+2016-01-01T23:08:04.437023-08:00 c4-3c1s7n3 BUG: unable to handle kernel NULL pointer dereference at 000000000000002c
+2016-01-01T23:08:04.437070-08:00 c4-3c1s7n3 IP: [<ffffffffa09ae1b1>] count_ipc_memory+0x11/0x20 [dvsipc]
+2016-01-01T23:08:04.437108-08:00 c4-3c1s7n3 PGD 8360d9067 PUD 8360d8067 PMD 0 
+2016-01-01T23:08:04.437176-08:00 c4-3c1s7n3 Oops: 0000 [#1] SMP 
+2016-01-01T23:08:04.437190-08:00 c4-3c1s7n3 CPU 25 
+2016-01-01T23:08:04.513151-08:00 c4-3c1s7n3 Modules linked in: xpmem dvspn(P) dvsof(P) dvsutil(P) dvsipc(P) dvsipc_lnet(P) dvsproc(P) bpmcdmod nic_compat cmsr lmv fld mgc lustre lov osc mdc fid kgnilnd ptlrpc obdclass lnet lvfs sha1_generic libcfs ib_core kgsockets ipip tunnel4 krsip pcie_link_bw_monitor kdreg gpcd_ari ipogif_ari kgni_ari hwerr(P) rca hss_os(P) heartbeat simplex(P) ghal_ari craytrace
+2016-01-01T23:08:04.538376-08:00 c4-3c1s7n3 Pid: 31170, comm: bigmpi5 Tainted: P             3.0.101-0.35.1_1.0502.8640-cray_ari_c #1 Cray Inc. Cascade/Cascade
+2016-01-01T23:08:04.538476-08:00 c4-3c1s7n3 RIP: 0010:[<ffffffffa09ae1b1>]  [<ffffffffa09ae1b1>] count_ipc_memory+0x11/0x20 [dvsipc]
+2016-01-01T23:08:04.563731-08:00 c4-3c1s7n3 RSP: 0000:ffff880833ef58d8  EFLAGS: 00010297
+2016-01-01T23:08:04.563842-08:00 c4-3c1s7n3 RAX: 0000000000000000 RBX: 0000000000000020 RCX: fffffffffffffff4
+2016-01-01T23:08:04.563860-08:00 c4-3c1s7n3 RDX: fffffffffffffff4 RSI: ffff88082001ef40 RDI: fffffffffffffff4
+2016-01-01T23:08:04.589085-08:00 c4-3c1s7n3 RBP: ffff880833ef58d8 R08: 000000000000003a R09: 000000000000fffe
+2016-01-01T23:08:04.589102-08:00 c4-3c1s7n3 R10: 0000000000000002 R11: 000000000000000a R12: 0000000000000001
+2016-01-01T23:08:04.614397-08:00 c4-3c1s7n3 R13: 0000000000000001 R14: 0000000000000001 R15: ffff8808363a67c0
+2016-01-01T23:08:04.614465-08:00 c4-3c1s7n3 FS:  00002aaab3bcd540(0000) GS:ffff88087fba0000(0000) knlGS:0000000000000000
+2016-01-01T23:08:04.639679-08:00 c4-3c1s7n3 CS:  0010 DS: 0000 ES: 0000 CR0: 000000008005003b
+2016-01-01T23:08:04.639734-08:00 c4-3c1s7n3 CR2: 000000000000002c CR3: 00000008358ce000 CR4: 00000000001407e0
+2016-01-01T23:08:04.639825-08:00 c4-3c1s7n3 DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+2016-01-01T23:08:04.665026-08:00 c4-3c1s7n3 DR3: 0000000000000000 DR6: 00000000ffff0ff0 DR7: 0000000000000400
+2016-01-01T23:08:04.665067-08:00 c4-3c1s7n3 Process bigmpi5 (pid: 31170, threadinfo ffff880833ef4000, task ffff880833732800)
+2016-01-01T23:08:04.665079-08:00 c4-3c1s7n3 Stack:
+2016-01-01T23:08:04.665115-08:00 c4-3c1s7n3 ffff880833ef59e8 ffffffffa09e5790 ffffea0017ccbab0 ffff88087fffb000
+2016-01-01T23:08:04.690627-08:00 c4-3c1s7n3 ffff880833ef5948 ffffffff811535e0 ffff880833732800 0000000033732800
+2016-01-01T23:08:04.715805-08:00 c4-3c1s7n3 ffff880835977c00 ffff8808333ebc00 ffff8808363a67c0 0000000000000100
+2016-01-01T23:08:04.715817-08:00 c4-3c1s7n3 Call Trace:
+2016-01-01T23:08:04.715849-08:00 c4-3c1s7n3 [<ffffffffa09e5790>] read_extent+0x1c0/0x14a0 [dvsof]
+2016-01-01T23:08:04.741108-08:00 c4-3c1s7n3 [<ffffffffa09e7f19>] ureadpages+0x14a9/0x18c0 [dvsof]
+2016-01-01T23:08:04.741124-08:00 c4-3c1s7n3 [<ffffffffa09e8376>] ureadpages_stats+0x46/0xa0 [dvsof]
+2016-01-01T23:08:04.741156-08:00 c4-3c1s7n3 [<ffffffff8110b63a>] __do_page_cache_readahead+0x1ba/0x260
+2016-01-01T23:08:04.766476-08:00 c4-3c1s7n3 [<ffffffff8110b701>] ra_submit+0x21/0x30
+2016-01-01T23:08:04.766510-08:00 c4-3c1s7n3 [<ffffffff811008dc>] filemap_fault+0x33c/0x3e0
+2016-01-01T23:08:04.766540-08:00 c4-3c1s7n3 [<ffffffff811273d6>] __do_fault+0x76/0x5b0
+2016-01-01T23:08:04.791859-08:00 c4-3c1s7n3 [<ffffffff811279ad>] handle_pte_fault+0x9d/0x880
+2016-01-01T23:08:04.791896-08:00 c4-3c1s7n3 [<ffffffff8112833e>] handle_mm_fault+0x1ae/0x240
+2016-01-01T23:08:04.791908-08:00 c4-3c1s7n3 [<ffffffff81420475>] do_page_fault+0x1e5/0x4c0
+2016-01-01T23:08:04.817041-08:00 c4-3c1s7n3 [<ffffffff8141d28f>] page_fault+0x1f/0x30
+2016-01-01T23:08:04.817079-08:00 c4-3c1s7n3 [<00002aaab06c2db0>] 0x2aaab06c2daf
+2016-01-01T23:08:04.842428-08:00 c4-3c1s7n3 Code: 44 00 00 48 89 77 30 48 89 57 28 c9 c3 66 66 66 66 2e 0f 1f 84 00 00 00 00 00 55 48 89 e5 0f 1f 44 00 00 31 c0 48 83 ff ff 74 03 <8b> 47 38 c9 c3 66 2e 0f 1f 84 00 00 00 00 00 55 48 89 e5 0f 1f 
+2016-01-01T23:08:04.867621-08:00 c4-3c1s7n3 RIP  [<ffffffffa09ae1b1>] count_ipc_memory+0x11/0x20 [dvsipc]
+2016-01-01T23:08:04.867654-08:00 c4-3c1s7n3 RSP <ffff880833ef58d8>
+2016-01-01T23:08:04.867817-08:00 c4-3c1s7n3 CR2: 000000000000002c
+2016-01-01T23:08:04.892923-08:00 c4-3c1s7n3 ---[ end trace 2479d140f9d51784 ]---
+2016-01-01T23:08:04.892953-08:00 c4-3c1s7n3 Kernel panic - not syncing: Fatal exception
+2016-01-01T23:08:04.918351-08:00 c4-3c1s7n3 Pid: 31170, comm: bigmpi5 Tainted: P      D      3.0.101-0.35.1_1.0502.8640-cray_ari_c #1
+2016-01-01T23:08:04.918384-08:00 c4-3c1s7n3 Call Trace:
+2016-01-01T23:08:04.918401-08:00 c4-3c1s7n3 [<ffffffff81005e89>] try_stack_unwind+0x169/0x1b0
+2016-01-01T23:08:04.918413-08:00 c4-3c1s7n3 [<ffffffff81004919>] dump_trace+0x89/0x440
+2016-01-01T23:08:04.943634-08:00 c4-3c1s7n3 [<ffffffff810058ec>] show_trace_log_lvl+0x5c/0x80
+2016-01-01T23:08:04.943666-08:00 c4-3c1s7n3 [<ffffffff81005925>] show_trace+0x15/0x20
+2016-01-01T23:08:04.943683-08:00 c4-3c1s7n3 [<ffffffff81419acb>] dump_stack+0x79/0x84
+2016-01-01T23:08:04.968873-08:00 c4-3c1s7n3 [<ffffffff81419b6a>] panic+0x94/0x1d2
+2016-01-01T23:08:04.968924-08:00 c4-3c1s7n3 [<ffffffff8141e0a8>] oops_end+0xa8/0xf0
+2016-01-01T23:08:04.968942-08:00 c4-3c1s7n3 [<ffffffff81030119>] no_context+0xf9/0x260
+2016-01-01T23:08:04.994201-08:00 c4-3c1s7n3 [<ffffffff810303f5>] __bad_area_nosemaphore+0x175/0x210
+2016-01-01T23:08:04.994238-08:00 c4-3c1s7n3 [<ffffffff810304fe>] bad_area+0x4e/0x60
+2016-01-01T23:08:04.994257-08:00 c4-3c1s7n3 [<ffffffff814206f4>] do_page_fault+0x464/0x4c0
+2016-01-01T23:08:05.019579-08:00 c4-3c1s7n3 [<ffffffff8141d28f>] page_fault+0x1f/0x30
+2016-01-01T23:08:05.019624-08:00 c4-3c1s7n3 [<ffffffffa09ae1b1>] count_ipc_memory+0x11/0x20 [dvsipc]
+2016-01-01T23:08:05.019651-08:00 c4-3c1s7n3 [<ffffffffa09e5790>] read_extent+0x1c0/0x14a0 [dvsof]
+2016-01-01T23:08:05.044878-08:00 c4-3c1s7n3 [<ffffffffa09e7f19>] ureadpages+0x14a9/0x18c0 [dvsof]
+2016-01-01T23:08:05.044918-08:00 c4-3c1s7n3 [<ffffffffa09e8376>] ureadpages_stats+0x46/0xa0 [dvsof]
+2016-01-01T23:08:05.044930-08:00 c4-3c1s7n3 [<ffffffff8110b63a>] __do_page_cache_readahead+0x1ba/0x260
+2016-01-01T23:08:05.070284-08:00 c4-3c1s7n3 [<ffffffff8110b701>] ra_submit+0x21/0x30
+2016-01-01T23:08:05.070308-08:00 c4-3c1s7n3 [<ffffffff811008dc>] filemap_fault+0x33c/0x3e0
+2016-01-01T23:08:05.070345-08:00 c4-3c1s7n3 [<ffffffff811273d6>] __do_fault+0x76/0x5b0
+2016-01-01T23:08:05.095562-08:00 c4-3c1s7n3 [<ffffffff811279ad>] handle_pte_fault+0x9d/0x880
+2016-01-01T23:08:05.095604-08:00 c4-3c1s7n3 [<ffffffff8112833e>] handle_mm_fault+0x1ae/0x240
+2016-01-01T23:08:05.095633-08:00 c4-3c1s7n3 [<ffffffff81420475>] do_page_fault+0x1e5/0x4c0
+2016-01-01T23:08:05.120842-08:00 c4-3c1s7n3 [<ffffffff8141d28f>] page_fault+0x1f/0x30
+2016-01-01T23:08:05.120878-08:00 c4-3c1s7n3 [<00002aaab06c2db0>] 0x2aaab06c2daf
+2016-01-01T23:13:59.741545-08:00 c0-1c1s1n1 <node_health:5.1> APID:343 (xtcheckhealth) WARNING: Node c4-3c1s7n3 (5471) is down and will not be checked!
+2016-01-01T23:13:59.803943-08:00 c0-1c1s1n1 <node_health:5.1> RESID:343 (xtcheckhealth) WARNING: Node c4-3c1s7n3 (5471) is down and will not be checked!

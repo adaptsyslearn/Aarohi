@@ -1,0 +1,71 @@
+2015-02-03T16:58:58.100688-08:00 c3-0c1s1n2 [Firmware Bug]: powernow-k8: No compatible ACPI _PSS objects found.
+2015-02-03T16:58:58.100701-08:00 c3-0c1s1n2 [Firmware Bug]: powernow-k8: Try again with latest BIOS.
+2015-02-03T16:59:19.347781-08:00 c3-0c1s1n2 LNet: Added LNI 6076@gni [16/1024/0/0]
+2015-02-03T16:59:19.347790-08:00 c3-0c1s1n2 Lustre: MGC10.10.10.1@o2ib: Reactivating import
+2015-02-03T16:59:19.347799-08:00 c3-0c1s1n2 Lustre: Client scratch-client has started
+2015-02-03T16:59:19.347807-08:00 c3-0c1s1n2 nomtab: 1
+2015-02-03T16:59:19.347816-08:00 c3-0c1s1n2 Lustre: MGC10.10.30.1@o2ib1: Reactivating import
+2015-02-03T16:59:19.347831-08:00 c3-0c1s1n2 Lustre: Server MGS version (2.4.1.0) is much newer than client version (1.8.6)
+2015-02-03T16:59:19.347841-08:00 c3-0c1s1n2 Lustre: 29299:0:(obd_config.c:1127:class_config_llog_handler()) skipping 'lmv' config: cmd=cf001,clilmv:lmv
+2015-02-03T16:59:19.347852-08:00 c3-0c1s1n2 Lustre: 29299:0:(obd_config.c:1127:class_config_llog_handler()) skipping 'lmv' config: cmd=cf014,clilmv:scratch2-MDT0000_UUID
+2015-02-03T16:59:19.347862-08:00 c3-0c1s1n2 Lustre: 29299:0:(obd_config.c:1127:class_config_llog_handler()) Skipped 1 previous similar message
+2015-02-03T16:59:19.347872-08:00 c3-0c1s1n2 Lustre: Server scratch2-MDT0000_UUID version (2.4.1.0) is much newer than client version (1.8.6)
+2015-02-03T16:59:19.347881-08:00 c3-0c1s1n2 Lustre: client supports 64-bits dir hash/offset!
+2015-02-03T16:59:19.347890-08:00 c3-0c1s1n2 Lustre: Client scratch2-client has started
+2015-02-03T16:59:19.347898-08:00 c3-0c1s1n2 blcr: vmadump: (from bproc-"4.0.0pre8") Erik Hendriks <erik@hendriks.cx>
+2015-02-03T16:59:19.347907-08:00 c3-0c1s1n2 blcr: vmadump: Modified for cray-blcr 0.8.4 <http://ftg.lbl.gov/checkpoint>
+2015-02-03T16:59:19.347916-08:00 c3-0c1s1n2 blcr: Berkeley Lab Checkpoint/Restart (BLCR) module version 0.8.4.
+2015-02-03T16:59:19.347926-08:00 c3-0c1s1n2 blcr:   Parameter cr_io_max = 0x4000000
+2015-02-03T16:59:19.347936-08:00 c3-0c1s1n2 blcr:   Supports kernel interface version 0.10.2.
+2015-02-03T16:59:19.347944-08:00 c3-0c1s1n2 blcr:   Supports context file format version 2051.
+2015-02-03T16:59:19.347951-08:00 c3-0c1s1n2 blcr: http://ftg.lbl.gov/checkpoint
+2015-02-03T16:59:19.347961-08:00 c3-0c1s1n2 DVS: Revision 1706 - Built: Mar 10 2014 @ 23:12:34 for lnet version 1.8.6
+2015-02-03T16:59:19.347690-08:00 c3-0c1s1n2 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 6076
+2015-02-03T16:59:19.347697-08:00 c3-0c1s1n2 Starting RSIP client, server=10.128.25.89, num_ports=32
+2015-02-03T16:59:19.347707-08:00 c3-0c1s1n2 nid 6076: Linux version 2.6.32.59-0.7.1_1.0402.7496-cray_gem_c (abuild@cfosbld03) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Aug 7 03:55:25 UTC 2013
+2015-02-03T16:59:19.347717-08:00 c3-0c1s1n2 init started: BusyBox v1.12.1 (2013-08-15 03:02:13 UTC)
+2015-02-03T16:59:19.347726-08:00 c3-0c1s1n2 starting pid 29182, tty '': '/etc/init.d/rc'
+2015-02-03T16:59:19.347744-08:00 c3-0c1s1n2 nomtab: 1
+2015-02-03T16:59:19.347754-08:00 c3-0c1s1n2 Lustre: Build Version: v1_8_6-trunk-1.0402.55776.11.1-Unknown-RB-4.2UP02-2014-08-22-00:16
+2015-02-03T16:59:19.347762-08:00 c3-0c1s1n2 Lustre: kgnilnd build version: 1.8.6-trunk-1.0402.55776.11.1-Unknown-RB-4.2UP02-2014-08-22-00:16
+2015-02-03T16:59:19.347773-08:00 c3-0c1s1n2 LNet: SMSG + BTE checksumming enabled
+2015-02-03T17:00:19.388199-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n1 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.413768-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n2 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.413864-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n3 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.439220-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n0 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.464811-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n1 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.490430-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n2 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.490525-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n3 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.516029-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n0 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.541662-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n1 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.567254-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n2 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.592715-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n3 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.592817-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n0 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.618299-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n1 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.643926-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n2 for /global/dna does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:19.669483-08:00 c3-0c1s1n2 DVS: read_clustered_super: no servers functioning properly. Unable to mount /global/dna from servers to /global/dna.  Failover mode requires at least one functioning server
+2015-02-03T17:00:19.669492-08:00 c3-0c1s1n2 mount: mounting /global/dna on /global/dna failed: No such device or address
+2015-02-03T17:00:27.415393-08:00 c3-0c1s1n2 S01dvs: mount returned error 255DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n1 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.440688-08:00 c3-0c1s1n2 for /global/dnaDVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n2 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.466333-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-0c0s4n3 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.466393-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n0 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.491994-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n1 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.517504-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n2 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.543174-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c3-3c0s5n3 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.543229-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n0 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.568955-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n1 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.594424-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n2 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.594527-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-1c2s7n3 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.645813-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n0 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.645867-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n1 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.671431-08:00 c3-0c1s1n2 DVS: verify_filesystem: file system magic value 0x6969 retrieved from server c7-2c2s6n2 for /global/projecta does not match expected value 0x47504653: excluding server. Ensure file system is mounted on the server and then restart DVS
+2015-02-03T17:00:27.671489-08:00 c3-0c1s1n2 DVS: read_clustered_super: no servers functioning properly. Unable to mount /global/projecta from servers to /global/projecta.  Failover mode requires at least one functioning server
+2015-02-03T17:00:27.696877-08:00 c3-0c1s1n2 mount: mounting /global/projecta on /global/projecta failed: No such device or address
+2015-02-03T17:00:37.438493-08:00 c3-0c1s1n2 S01dvs: mount returned error 255 for /global/projecta
+2015-02-03T17:00:37.438505-08:00 c3-0c1s1n2 SGI XPMEM kernel module v2.2 loaded
+2015-02-03T17:00:37.438552-08:00 c3-0c1s1n2 <node_health> (xtnhd) xtnhd has started
+2015-02-03T17:00:37.438563-08:00 c3-0c1s1n2 <node_health> Boot_Check: NHC on boot skipped.
+2015-02-03T17:00:37.438570-08:00 c3-0c1s1n2 boot_freemem data calculated:  32390540
+2015-02-03T20:21:30.650889-08:00 c3-0c1s1n2 L0SYSD_MCE: socket 1 core 5 bank 0 status 0xf600000000000175 addr 0x000000075e0c6fc0 misc 0x0000000000000000
+2015-02-03T20:21:49.144925-08:00 c9-1c0s7n3 <node_health:5.1> APID:44490081 (xtcheckhealth) WARNING: Node c3-0c1s1n2 (6076) is down and will not be checked!
+2015-02-03T20:21:49.144937-08:00 c9-1c0s7n3 <node_health:5.1> RESID:69 (xtcheckhealth) WARNING: Node c3-0c1s1n2 (6076) is down and will not be checked!
