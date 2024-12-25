@@ -36,16 +36,16 @@ Pre-requisites:
  else, if changes are made in .ll or .yy files as well, please run:
 	make distclean
 
- followed by:
+ followed by generating an optimized binary (i.e., with O3 compiler flag):
 	./configure --enable-optimize --prefix=$(pwd)/src
 	make && make install
 
- to generate optimized binary OR
+ to generate an unoptimized binary
 
 	./configure --program-suffix=Unoptimized --prefix=$(pwd)/src
 	make && make install
 
- copy the binaries from src/bin to src, to run other scripts
+ copy the binaries from src/bin to src (if needed), to run other scripts
 
 
 ************ To run experiments ***********
@@ -56,13 +56,14 @@ cd Code/src/
 
 In general: ./aarohi   ../TestFiles/Test.txt 
 
-Additional  -s, -p option helps to debug with the verbose tracing enabled (i.e., added tracing overhead). 
+The usage of -s, -p options help to debug with verbose tracing enabled (i.e., has added tracing overhead). 
+./aarohi -s ../TestFiles/Test.txt 
 
-It is recommended not to use -s & -p options to get eventual performance numbers.
+It is recommended not to use -s & -p options to get major performance numbers.
  
-Run:
-./aarohi TestFiles/Test8.txt
+Example:
+./aarohi ../TestFiles/Test8.txt
 
-(matches FC8 from FC List.txt from Algo 1 in the paper)
+(matches FC8 from FC List.txt from Algorithm 1 in the paper)
 
 
