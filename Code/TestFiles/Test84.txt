@@ -1,0 +1,26 @@
+04:58:57.640876 Processor_has_catastrophic_error!_CATERR_assertion_mask:_0x1
+04:59:06.317921 EXTERNAL_MCE_TOOL
+14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+04:59:06.317947 socket_0_reports_MCERR_externally_asserted_by_socket_1
+04:59:06.317954 socket_0_reports_IERR_externally_asserted_by_socket_1
+04:59:06.317961 socket_0_reports_CATERR_externally_asserted_by_socket_1
+04:59:06.317968 Error_extracting_CBo_ToR_Data
+04:59:06.317974 Logging_1_MCE_errors_to_hwerrlog
+14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+04:59:06.317981 **_Message:_bclib_set_nic_map:_NIC_re-mapping_is_in_place.
+04:59:06.317989 **_Message:_peci_crash_dump_tor:_Error_reading_ToR_entry
+04:59:24.403825 <node_health:5.1>_APID:3012334_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
+05:02:26.962616 <node_health:5.1>_RESID:738537_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
+14:27:11.665934         DVS:_verify_filesystem:_file_system_errors_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+12:50:10.789430         mount:_mounting_*_on_*:_No_such_device_or_address                       
+12:50:17.819980         S01dvs:_mount_returned_error_*_for_*                                   
+12:50:17.819986         SGI_XPMEM_kernel_module_v2.2_loaded                                   
+12:50:17.819991         <node_health>_xtnhd_has_started                                      
+12:50:17.819996         <node_health>_Boot_Check:_NHC_on_boot_skipped                       
+12:50:17.820001         boot_freemem_data_calculated:*                                     
+14:31:29.131868         DVS:_parse_options:_ignoring_'maxnodes'_for_loadbalance_file_system     
+21:58:34.260033         [Hardware_Error]:_CPU_0:_Machine_Check_Exception:*                     
+21:58:34.260063         [Hardware_Error]:_TSC_*_ADDR_*                                        
+21:58:34.260080         [Hardware_Error]:_PROCESSOR_*:*_TIME_*_SOCKET_*_APIC_*_microcode_*   
+22:58:34.251989         CPU_*:_logged_*_bank4_correctable_MCEs_interval*                    
+01:37:14.243696         cb_node_unavailable:_node_c7-3c2s15n3_found_in_unavailable_event                   

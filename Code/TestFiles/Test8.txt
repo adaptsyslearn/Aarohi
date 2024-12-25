@@ -1,0 +1,14 @@
+04:58:57.640876 Processor_has_catastrophic_error!_CATERR_assertion_mask:_0x1
+04:59:06.317921 EXTERNAL_MCE_TOOL
+14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+04:59:06.317947 socket_0_reports_MCERR_externally_asserted_by_socket_1
+04:59:06.317954 socket_0_reports_IERR_externally_asserted_by_socket_1
+04:59:06.317961 socket_0_reports_CATERR_externally_asserted_by_socket_1
+04:59:06.317968 Error_extracting_CBo_ToR_Data
+04:59:06.317974 Logging_1_MCE_errors_to_hwerrlog
+14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+04:59:06.317981 **_Message:_bclib_set_nic_map:_NIC_re-mapping_is_in_place.
+04:59:06.317989 **_Message:_peci_crash_dump_tor:_Error_reading_ToR_entry
+04:59:24.403825 <node_health:5.1>_APID:3012334_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
+05:02:26.962616 <node_health:5.1>_RESID:738537_(xtcheckhealth)_WARNING:_Node_c8-0c2s13n3_(1719)_is_down_and_will_not_be_checked!
+14:27:11.665934         DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS

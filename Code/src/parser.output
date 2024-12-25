@@ -1,0 +1,232 @@
+Nonterminals useless in grammar
+
+   eventlist
+   event
+   if_stmt
+   $@1
+   timediff
+   location
+   expr
+
+
+Terminals unused in grammar
+
+   "integer"
+   "double"
+   component
+   timestamp
+   threshold
+   IF
+   THEN
+   ELSE
+   '\n'
+   '-'
+   ">="
+
+
+Rules useless in grammar
+
+   11 eventlist: location event '\n'
+   12          | location eventlist event '\n'
+
+   13 event: assignment
+   14      | if_stmt
+
+   15 $@1: %empty
+
+   16 if_stmt: IF expr THEN $@1 ELSE
+
+   17 timediff: timediff '-' timestamp
+
+   18 location: component
+
+   19 expr: timediff ">=" threshold
+
+
+Rules useless in parser due to conflicts
+
+    9 start: start assignment "end of line"
+   10      | start assignment "end of file"
+
+
+State 6 conflicts: 3 shift/reduce
+State 8 conflicts: 4 reduce/reduce
+State 9 conflicts: 4 reduce/reduce
+
+
+Grammar
+
+    0 $accept: start "end of file"
+
+    1 assignment: "string" '=' phrase
+
+    2 start: %empty
+    3      | start ';'
+    4      | start "end of line"
+    5      | start assignment ';'
+    6      | start assignment "end of line"
+    7      | start assignment "end of file"
+    8      | start assignment
+    9      | start assignment "end of line"
+   10      | start assignment "end of file"
+
+
+Terminals, with rules where they appear
+
+"end of file" (0) 0 7 10
+'\n' (10)
+'-' (45)
+';' (59) 3 5
+'=' (61) 1
+error (256)
+"end of line" (258) 4 6 9
+"integer" (259)
+"double" (260)
+"string" (261) 1
+phrase (262) 1
+component (263)
+timestamp (264)
+threshold (265)
+IF (266)
+THEN (267)
+ELSE (268)
+">=" (269)
+
+
+Nonterminals, with rules where they appear
+
+$accept (19)
+    on left: 0
+assignment (20)
+    on left: 1, on right: 5 6 7 8 9 10
+start (21)
+    on left: 2 3 4 5 6 7 8 9 10, on right: 0 3 4 5 6 7 8 9 10
+
+
+State 0
+
+    0 $accept: . start "end of file"
+
+    $default  reduce using rule 2 (start)
+
+    start  go to state 1
+
+
+State 1
+
+    0 $accept: start . "end of file"
+    3 start: start . ';'
+    4      | start . "end of line"
+    5      | start . assignment ';'
+    6      | start . assignment "end of line"
+    7      | start . assignment "end of file"
+    8      | start . assignment
+    9      | start . assignment "end of line"
+   10      | start . assignment "end of file"
+
+    "end of file"  shift, and go to state 2
+    "end of line"  shift, and go to state 3
+    "string"       shift, and go to state 4
+    ';'            shift, and go to state 5
+
+    assignment  go to state 6
+
+
+State 2
+
+    0 $accept: start "end of file" .
+
+    $default  accept
+
+
+State 3
+
+    4 start: start "end of line" .
+
+    $default  reduce using rule 4 (start)
+
+
+State 4
+
+    1 assignment: "string" . '=' phrase
+
+    '='  shift, and go to state 7
+
+
+State 5
+
+    3 start: start ';' .
+
+    $default  reduce using rule 3 (start)
+
+
+State 6
+
+    5 start: start assignment . ';'
+    6      | start assignment . "end of line"
+    7      | start assignment . "end of file"
+    8      | start assignment .
+    9      | start assignment . "end of line"
+   10      | start assignment . "end of file"
+
+    "end of file"  shift, and go to state 8
+    "end of line"  shift, and go to state 9
+    ';'            shift, and go to state 10
+
+    "end of file"  [reduce using rule 8 (start)]
+    "end of line"  [reduce using rule 8 (start)]
+    ';'            [reduce using rule 8 (start)]
+    $default       reduce using rule 8 (start)
+
+
+State 7
+
+    1 assignment: "string" '=' . phrase
+
+    phrase  shift, and go to state 11
+
+
+State 8
+
+    7 start: start assignment "end of file" .
+   10      | start assignment "end of file" .
+
+    "end of file"  reduce using rule 7 (start)
+    "end of file"  [reduce using rule 10 (start)]
+    "end of line"  reduce using rule 7 (start)
+    "end of line"  [reduce using rule 10 (start)]
+    "string"       reduce using rule 7 (start)
+    "string"       [reduce using rule 10 (start)]
+    ';'            reduce using rule 7 (start)
+    ';'            [reduce using rule 10 (start)]
+    $default       reduce using rule 7 (start)
+
+
+State 9
+
+    6 start: start assignment "end of line" .
+    9      | start assignment "end of line" .
+
+    "end of file"  reduce using rule 6 (start)
+    "end of file"  [reduce using rule 9 (start)]
+    "end of line"  reduce using rule 6 (start)
+    "end of line"  [reduce using rule 9 (start)]
+    "string"       reduce using rule 6 (start)
+    "string"       [reduce using rule 9 (start)]
+    ';'            reduce using rule 6 (start)
+    ';'            [reduce using rule 9 (start)]
+    $default       reduce using rule 6 (start)
+
+
+State 10
+
+    5 start: start assignment ';' .
+
+    $default  reduce using rule 5 (start)
+
+
+State 11
+
+    1 assignment: "string" '=' phrase .
+
+    $default  reduce using rule 1 (assignment)

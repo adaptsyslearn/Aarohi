@@ -1,0 +1,32 @@
+Line content is 07:05:27.956206
+Line content is cpu_*_apic_timer_*
+Line content is 07:05:28.054649
+Line content is task_PC_stack_pid_father
+Line content is 07:05:28.054656
+Line content is init_*
+Line content is 19:26:12.036832
+Line content is <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+Line content is 07:05:28.054724
+Line content is Call_Trace:
+Line content is 07:05:40.916332­
+Line content is Debug_NMI_detected_on_CPU_9
+Line content is 07:05:41.888702
+Line content is Kernel_panic_not_syncing:_Debug_NMI
+Line content is 14:27:11.665934
+Line content is DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding
+Line content is server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+Line content is 07:05:45.945933
+Line content is cb_node_unavailable:*_found_in_unavailable_event
+
+ Total number of events in the input sequence is 9
+
+ Discarded 5 events, not occuring in any failure chains
+4 length event chain needs to be evaluated . ..
+
+ Starting Failure Prediction ....
+Its an expression 
+Found EOL after eventlist
+Inference Completed, Prediction time is: 7702636 nsecs
+Total prediction time including Initial Phrase Check is: 7940297 nsecs
+FC Matched:
+2

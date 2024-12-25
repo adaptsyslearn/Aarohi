@@ -1,0 +1,50 @@
+16:27:14.021303         Crypto_Lib Callback.
+16:27:14.046485         Heap_addr_before_Virtual_MemFixup_=_7bb0f018,_After_=_7bb0f018
+16:27:14.046500         NvramSmi_Go_Virtual
+09:46:34.030474   	<node_health:5.1>_APID:0_(xtnhd)_INFO:+_xtnhd_has_started
+19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+09:46:35.448139   	(Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+19:26:12.036832   	<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+09:49:12.099149   	LNetError:_*_Too_long_env_variable.
+10:12:04.144488         Running_sysctl_using_values_from_/etc/sysctl.conf
+10:12:04.144498         vm.max_map_count_=_1048576
+10:12:04.144510         nomtab:_1
+14:27:11.665934         bpmcd_init:_Power_statistics_available_in_/sys/cray
+14:27:11.665934   	DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+09:49:12.640969   	LNetError:_*_Skipped_309_previous_similar_messages
+09:49:56.281366   	krsip:_RSIP_server_*_not_responding*
+14:27:11.665934   	DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+10:24:19.450696   	(Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+16:27:14.021303         Crypto_Lib Callback.
+16:27:14.046485         Heap_addr_before_Virtual_MemFixup_=_7bb0f018,_After_=_7bb0f018
+16:27:14.046500         NvramSmi_Go_Virtual
+16:27:14.144589         Stopping_all_external_HCs
+16:27:14.169770         stopping_all_HC_type_40:
+16:58:59.061476   	[Firmware_Bug]:_powernow-k8:_No_compatible_ACPI_PSS_objects_found.
+17:00:25.432572   	DVS:_verify_filesystem:_file_system_magic_value_*
+09:40:29.479894   	DVS:_file_node_down:_removing_*_from_list_of_available_servers
+10:57:43.669621   	Lustre:_29204:0:(client.c:1533:ptlrpc_expire_one_request())_*
+11:16:28.147743   	cpu_0_apic_timer_irqs=*
+11:16:30.087186   	cb_node_unavailable:_node_c4-2c2s6n0_found_in_unavailable_event
+07:05:41.888702         nomtab:_1
+07:05:45.945933         Loading_gsockets_module
+16:27:14.021303         Crypto_Lib Callback.
+16:27:12.434072         (Wdt)_DisableTimer
+09:46:34.030474   	<node_health:5.1>_APID:0_(xtnhd)_INFO:+_xtnhd_has_started
+09:46:35.448139   	(Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+09:49:12.099149   	LNetError:_*_Too_long_env_variable.
+09:49:12.640969   	LNetError:_*_Skipped_309_previous_similar_messages
+09:49:56.281366   	krsip:_RSIP_server_*_not_responding*
+10:24:19.450696   	(Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+10:12:04.144488         Running_sysctl_using_values_from_/etc/sysctl.conf
+10:12:04.144498         vm.max_map_count_=_1048576
+10:12:04.144510         nomtab:_1
+14:27:11.665934         bpmcd_init:_Power_statistics_available_in_/sys/cray
+10:12:09.144468         net.core.rmem_max_=_16777216
+10:12:09.169632         net.core.optmem_max_=_16777216
+16:58:59.061476   [Firmware_Bug]:_powernow-k8:_No_compatible_ACPI_PSS_objects_found.
+17:00:25.432572   DVS:_verify_filesystem:_file_system_magic_value_*
+09:40:29.479894   DVS:_file_node_down:_removing_*_from_list_of_available_servers
+10:57:43.669621   Lustre:_29204:0:(client.c:1533:ptlrpc_expire_one_request())_*
+11:16:28.147743   cpu_0_apic_timer_irqs=*
+11:16:30.087186   cb_node_unavailable:_node_c4-2c2s6n0_found_in_unavailable_event

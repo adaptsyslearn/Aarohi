@@ -1,0 +1,1 @@
+19:26:12.036832_c4-3c1s7n3_<node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/org/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
