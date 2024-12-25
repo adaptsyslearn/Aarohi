@@ -12,8 +12,9 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 |   |-- src                 : Flex Bison parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
 |   |-- README.txt          : Information to compile and run
-|-- InterArrivalTimes      : Data and scripts related to inter-arrival times
+|-- InterArrivalTimes       : Data and scripts related to inter-arrival times
 |-- SampleData              : Sample HPC logs with some node failure information
+|-- Speedup                 : Speedup in execution time (of prediction or detection) across different approaches
 |-- helperScripts           : Scripts to process files or calculate statistics 
 |-- Experiments             : Scripts related to some results
 ```
