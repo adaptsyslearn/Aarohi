@@ -1,0 +1,22 @@
+14:27:11.665934         DVS:_verify_filesystem:_file_system_errors_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+12:50:10.789430         mount:_mounting_*_on_*:_No_such_device_or_address
+12:50:17.819980         S01dvs:_mount_returned_error_*_for_*
+12:50:17.819986         SGI_XPMEM_kernel_module_v2.2_loaded
+07:05:27.956206         cpu_0_apic_timer_out
+12:50:17.819991         <node_health>_xtnhd_has_started
+12:50:17.819996         <node_health>_Boot_Check:_NHC_on_boot_skipped
+12:50:17.820001         boot_freemem_data_calculated:*
+14:31:29.131868         DVS:_parse_options:_ignoring_'maxnodes'_for_loadbalance_file_system
+21:58:34.260033         [Hardware_Error]:_CPU_0:_Machine_Check_Exception:*
+21:58:34.260063         [Hardware_Error]:_TSC_*_ADDR_*
+21:58:34.260080         [Hardware_Error]:_PROCESSOR_*:*_TIME_*_SOCKET_*_APIC_*_microcode_*
+22:58:34.251989         CPU_*:_logged_*_bank4_correctable_MCEs_interval*
+01:37:14.243696         cb_node_unavailable:_node_c7-3c2s15n3_found_in_unavailable_event
+04:22:44.126366         DVS:_file_node_down:_removing_c3-0c0s4n1_from_list_of_available_servers_for_7_mount_points
+07:05:28.054656         init_*
+04:37:09.598240         LNet:_*_No_gnilnd_traffic_received_from_*_for_*_seconds_*
+04:39:28.414866         LNet:_*_to_timed_out_*
+04:43:40.338310         LNet:_Received_down_event_for_nid*
+05:38:58.100694         Stop_NMI_detected_on_CPU_0
+05:38:59.685959­        RCADSVCS_:_shutdown.
+05:39:02.088450­        cb_node_unavailable:_node_c7-3c2s15n3_found_in_unavailable_event

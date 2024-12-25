@@ -1,0 +1,22 @@
+16:27:14.021303         Crypto_Lib Callback.
+16:27:14.046485         Heap_addr_before_Virtual_MemFixup_=_7bb0f018,_After_=_7bb0f018
+16:27:14.046500         NvramSmi_Go_Virtual
+09:46:34.030474   <node_health:5.1>_APID:0_(xtnhd)_INFO:+_xtnhd_has_started
+19:26:12.036832   <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+09:46:35.448139   (Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+19:26:12.036832   <node_health:5.1>_RESID:11742_(Plugin)_WARNING:_Program_"/dsl/opt/nersc/udiRoot/default/libexec/udiRoot-nhc-plugin"_returned_with_exit_code_127,_which_may_indicate_that_it_could_not_be_found
+09:49:12.099149   LNetError:_*_Too_long_env_variable.
+10:12:04.144488         Running_sysctl_using_values_from_/etc/sysctl.conf
+10:12:04.144498         vm.max_map_count_=_1048576
+10:12:04.144510         nomtab:_1
+14:27:11.665934         bpmcd_init:_Power_statistics_available_in_/sys/cray
+14:27:11.665934   DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+09:49:12.640969   LNetError:_*_Skipped_309_previous_similar_messages
+09:49:56.281366   krsip:_RSIP_server_*_not_responding*
+14:27:11.665934   DVS:_verify_filesystem:_file_system_magic_value_0x6969_retrieved_from_server_c6-0c0s0n2_for_/global/scratch2_does_not_match_expected_value_0x47504653:_excluding server._Ensure_file_system_is_mounted_on_the_server_and_then_restart_DVS
+10:24:19.450696   (Filesystem_Test)_WARNING:_mkdir_of_/gfs2/.nodehealth.fstest
+16:27:14.021303         Crypto_Lib Callback.
+16:27:14.046485         Heap_addr_before_Virtual_MemFixup_=_7bb0f018,_After_=_7bb0f018
+16:27:14.046500         NvramSmi_Go_Virtual
+16:27:14.144589         Stopping_all_external_HCs
+16:27:14.169770         stopping_all_HC_type_40:
