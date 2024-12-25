@@ -16,7 +16,7 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 |-- SampleData              : Sample HPC logs with some node failure information
 |-- Speedup                 : Speedup in execution time (of prediction or detection) across different approaches
 |-- helperScripts           : Scripts to process files or calculate statistics 
-|-- Experiments             : Scripts related to some results
+|-- Experiments             : Source codes related to some results
 ```
 
 ## Citation
