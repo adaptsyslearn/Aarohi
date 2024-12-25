@@ -8,12 +8,14 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 ```bash
 /                           : Aarohi Root
 |-- Algorithm1              : Generation of rule list from failure chains
+|-- Inter-arrival Times     : Data and scripts related to inter-arrival times
 |-- Code
 |   |-- src                 : Flex Bison parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
 |   |-- README.txt          : Information to compile and run
-|-- SampleData              : Sample HPC logs with some node failure information 
-|-- Experiments             : Scripts related to some of the results/plots
+|-- SampleData              : Sample HPC logs with some node failure information
+|-- helperScripts           : Scripts to process files or calculate statistics 
+|-- Experiments             : Scripts related to some results
 ```
 
 ## Citation
