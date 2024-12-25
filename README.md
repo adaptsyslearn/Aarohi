@@ -1,5 +1,18 @@
 # Aarohi
 
+This repo contains some artifacts related to the Aarohi (IPDPS'20) paper. 
+
+### Code Structure
+```bash
+/                           : Aarohi Base
+|-- Code
+|   |-- src                 : Flex Bison parser
+|   |-- Testfiles           : Sample test files related to Failure Chains
+|   |-- README.txt          : Information to compile and run
+|-- SampleData              : Sample HPC logs with few node failure information 
+|-- Experiments             : Scripts related to some of the results/plots
+```
+
 ## Citation
 
 If you use Aarohi in your work, please cite the following paper:
