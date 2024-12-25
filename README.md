@@ -7,7 +7,7 @@ For further details, please refer to the related [IPDPS 2020 paper](https://ieee
 ### Code Structure
 ```bash
 /                           : Aarohi Root
-|-- Algorithm1              : Generation of rule list from failure chains
+|-- FCToRule                : Generation of rule list from failure chains
 |-- Code
 |   |-- src                 : Flex Bison parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
