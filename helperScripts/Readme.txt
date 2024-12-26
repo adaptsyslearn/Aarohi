@@ -1,5 +1,5 @@
 
-      ####################  AAROHI: A compiler-based Predictor ##############################################
+      ####################  AAROHI: A compiler-based node failure predictor #############
 
         These are helper scripts used for processing files or computing statistics as needed.
 
