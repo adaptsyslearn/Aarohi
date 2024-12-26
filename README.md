@@ -18,6 +18,7 @@ For further details, please feel free to refer to the related [IPDPS 2020 paper]
 |-- helperScripts           : Scripts to process files or calculate statistics 
 |-- Experiments             : Source codes related to some results
 ```
+Please refer to the Readme files in each of the folders.
 
 ## Citation
 
