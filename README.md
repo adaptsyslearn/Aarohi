@@ -1,7 +1,7 @@
 # Aarohi
 
 This repo contains some artifacts related to the Aarohi paper. 
-For further details, please refer to the related [IPDPS 2020 paper](https://ieeexplore.ieee.org/document/9139847).
+For further details, please feel free to refer to the related [IPDPS 2020 paper](https://ieeexplore.ieee.org/document/9139847).
 
 
 ### Code Structure
