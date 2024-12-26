@@ -9,7 +9,7 @@ For further details, please feel free to refer to the related [IPDPS 2020 paper]
 /                           : Aarohi Root
 |-- FCToRule                : Generation of rule list from failure chains
 |-- Code
-|   |-- src                 : Flex Bison parser
+|   |-- src                 : Failure parser
 |   |-- Testfiles           : Sample test files related to Failure Chains
 |   |-- README.txt          : Information to compile and run
 |-- InterArrivalTimes       : Data and scripts related to inter-arrival times
