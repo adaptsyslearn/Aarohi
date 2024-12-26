@@ -22,7 +22,7 @@ The Readme files in each of the folders have additional details.
 
 ## Citation
 
-If you use Aarohi in your work, please cite the following paper:
+For anything related to this work, the following paper can be cited:
 
 ```
 @inproceedings{DBLP:conf/aarohi,
