@@ -1,8 +1,8 @@
-#ChainLength#Desktop(IntelQuadQ9550Core2.83GHz)#c7(SkylakeSilver4110-2.10GHz)#Cicero-logger(Xeon-R-E5-2640-v3/2.6GHz)#c50-(AMDopteron-6128)(Mean+Std.Dev)w/o O3-Desktop
+#ChainLength #IntelQuadQ9550Core2.83GHz  #SkylakeSilver4110-2.10GHz  #Xeon-R-E5-2640-v3/2.6GHz  #AMDopteron-6128 (Mean+Std.Dev)w/o O3-Desktop
 57	0.5192	0.0446	1.0937	0.0336	0.686	0.135	1.6157	0.0274	1.1724	0.0091
 128	1.4227	0.3203	2.4071	0.1471	1.6701	0.3351	3.8161	0.3569	2.2162	0.0317
 302	1.1904	0.0438	2.6861	0.0956	1.6098	0.3652	3.8396	0.1575	2.9034	0.0164
 3820	5.8944	0.0374	9.1181	0.6788	10.3918	0.1394	9.1343	0.6140	19.2393	0.2005
 
-# For all the 5 pairs, Mean and Std_Dev is noted, all times on milliseconds
+# For all the 5 pairs, Mean and Std_Dev is noted, all times in milliseconds
 
