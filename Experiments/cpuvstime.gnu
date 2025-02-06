@@ -2,12 +2,11 @@
 
 set term postscript eps enhanced color font 26 dashed
 
-#set key graph 0.85,0.95
 set size 1, 1
 set key horizontal top left
 set style data boxes
 set style data histogram
-#set style histogram cluster gap 2
+
 set style fill solid border -1
 set xlabel "Chain Length (#Phrases)" offset 0, 0.5
 set ylabel "Mean Prediction Time (msecs)" offset 2
